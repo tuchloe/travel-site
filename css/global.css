@@ -1,0 +1,102 @@
+ul{
+    list-style: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #335576;
+}
+a{
+    text-decoration: none;
+}
+.TravelNavigation{
+    color: #335576;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    justify-content: space-between;
+}
+#navbar{
+    padding-right: 5rem;
+}
+p{
+    font-size: 0.9rem;
+}
+.TravelNavigation__navitem{
+    color: #335576;
+}
+.TravelNavigation__navitem--currentpage{
+    padding-bottom: 0.7rem;
+    border-bottom: #DB7A4E solid 3px;
+}
+.TravelNavigation li {
+   display:inline-block;
+   padding-left: 20px; 
+   padding-right:20px;
+}
+#Menu{
+    background-color: #FFFFFF;
+    position:fixed;
+    width: 100vw;
+}
+h1{
+    font-size: 2.5rem;
+}
+h3{
+    color: #335576;
+}
+
+footer{
+    background-color: #FEFAF5;
+}
+
+.footer__subtitle{
+color: #DB7A4E;
+font-size: 0.7rem;
+}
+#contactcard{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#HoursofOperation{
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#SocialContact{
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    align-items: flex-end;
+}
+.socialicon{
+    height: 2rem;
+    padding-right: 2em;
+}
+
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hoursInfoContainer {
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+    justify-content: space-between;
+}
+
+.contactInfoContainer {
+    display:flex;
+}
+
+.socialInfoContainer{
+    display:flex;
+    flex-direction: row;
+    margin-top: 2.6rem;
+}

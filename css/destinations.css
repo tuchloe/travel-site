@@ -1,0 +1,55 @@
+.backgroundpic{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+}
+.PageTitle{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    margin-top: 0px;
+}
+.itinerarycard{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+}
+
+ul {
+    padding:1rem;
+    margin-block-start: 0;
+    margin-block-end:0;
+}
+
+.itinerarycard__activity{
+    background-color: #FEFAF5;
+    text-align: center;
+    padding:1rem;
+    margin: 1rem;
+    color: black;
+    font-size: 1.15rem;
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+}
+#CardContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardTitle{
+    border-bottom: 0.2rem solid black;
+    color: black;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,62 @@
+#StartButton{
+background-color: #DB7A4E;
+color: white;
+border-radius: 35px;
+border: none;
+padding-left: 2.6rem;
+padding-right: 2.6rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+font-size: 1rem;
+margin-top: 1rem;
+}
+#HeroSection{
+    background-color: #FEFAF5;
+    text-align: left;
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-bottom: 5em;
+    align-items: center;
+}
+#HeroLocation{
+    width:30rem;
+}
+#HeroLeft{
+    width: 35vw;
+
+}
+#HeroRight{
+    display:flex;
+    justify-content: center;
+    width: 35vw;
+}
+#RecTitle{
+    padding-left: 5rem;
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.locationcard{
+    display: flex;
+    width: 20rem;
+    height: 30rem;
+    padding: 2rem;
+}
+.locationimg{
+    border-radius: 3%;
+    box-shadow: 0px 5px 5px lightgray;
+}
+.locationcard__item{
+    color: white;
+    position: absolute;
+    display: flex;
+    padding-left: 12.5rem;
+    padding-top: 25.5rem;
+}
+#RecSection{
+    background-color: white;
+}
